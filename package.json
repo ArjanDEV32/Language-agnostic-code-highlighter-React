@@ -1,0 +1,32 @@
+{
+  "name": "@arjan32/code-highlighter",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "author": "https://github.com/ArjanDEV32",
+  "description": "A language agnostic code highlighter in React.",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "main": "ch.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArjanDEV32/code-highlighter-React.git"
+  },
+  "keywords": [
+    "react",
+    "syntax highlighter",
+    "code highlighter"
+  ],
+  "files": [
+    "Example"
+  ],
+  "scripts": {
+    "build": "babel ch.jsx --out-file ch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
