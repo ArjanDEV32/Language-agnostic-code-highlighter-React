@@ -1,4 +1,8 @@
 # A language agnostic code syntax highlighter in React.
+
+# install: 
+```npm i @arjan32/code-highlighter```
+# usage: 
 This module is just a function that takes two parameters:  
 * ```The source code``` of type ```string```
 * ```Object needed to style parts of the source code ``` of type ```object```
